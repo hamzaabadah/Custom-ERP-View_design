@@ -1,0 +1,19 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom Role",
+  "modified": "2022-09-17 14:02:33.788810",
+  "name": "a921ba4046",
+  "page": "",
+  "ref_doctype": "Opportunity",
+  "report": "Lost Opportunity",
+  "roles": [
+   {
+    "parent": "a921ba4046",
+    "parentfield": "roles",
+    "parenttype": "Custom Role",
+    "role": "Accounts Manager"
+   }
+  ]
+ }
+]
