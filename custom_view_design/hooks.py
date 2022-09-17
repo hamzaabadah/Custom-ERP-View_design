@@ -101,7 +101,37 @@ app_license = "MIT"
 # Document Events
 # ---------------
 # Hook on document methods and events
+fixtures = [
 
+    {"dt":"Custom Field",
+		"filters": [
+			["dt", "in", 
+                ("Customer")
+            ]
+        ]
+    },
+
+    {
+    "dt": "Property Setter",
+		"filters": [
+			["name", "in", 
+				("Salary Slip-deductions-read_only")
+            ]
+		]
+	},
+
+    {"dt":"Client Script",
+		"filters": [
+	    	["dt", "in", 
+                ("Leave Period","User")
+            ]
+        ]
+    },
+
+    "Custom Role",
+	
+
+]
 # doc_events = {
 #	"*": {
 #		"on_update": "method",
